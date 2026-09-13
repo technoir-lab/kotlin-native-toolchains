@@ -19,7 +19,7 @@ families from macOS ARM64 and Linux x64 hosts.
   neighboring `kmp-gradle-plugins` repository.
 
 The pinned development environment is Kotlin 2.4.10, Gradle 9.7.0, and JDK
-21. Linux and MinGW builders require Docker. Android builds require Android
+25. Linux and MinGW builders require Docker. Android builds require Android
 NDK 29.0.14206865.
 
 ## Command execution

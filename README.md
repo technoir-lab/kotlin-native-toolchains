@@ -12,7 +12,7 @@ The shared project environment is pinned to:
 
 - Kotlin/Kotlin Gradle plugin 2.4.10
 - Gradle 9.7.0
-- JDK 21
+- JDK 25
 
 The toolchain builder and platform registry live at the repository root. The
 self-contained Kotlin Multiplatform example and its Gradle wrapper live under
