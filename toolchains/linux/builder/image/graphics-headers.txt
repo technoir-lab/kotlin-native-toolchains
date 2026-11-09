@@ -1,0 +1,49 @@
+# Headers that the X11, xcb, Wayland, xkbcommon, Vulkan, and audio sources in
+# sources.lock must provide in every Linux target sysroot, relative to
+# usr/include. The image build checks the header bundle against this list, and
+# the host-side artifact check requires every entry in each target sysroot.
+# PipeWire and SPA install into the versioned pipewire-0.3 and spa-0.2
+# directories that PipeWire's pkg-config files add to the include path.
+X11/X.h
+X11/Xlib.h
+X11/Xlib-xcb.h
+X11/XlibConf.h
+X11/Xtrans/Xtrans.h
+X11/extensions/XShm.h
+X11/extensions/Xdbe.h
+X11/extensions/Xext.h
+X11/extensions/shape.h
+X11/extensions/sync.h
+xcb/xcb.h
+xcb/randr.h
+xcb/xproto.h
+wayland-client.h
+wayland-client-protocol.h
+wayland-cursor.h
+wayland-egl.h
+wayland-server.h
+wayland-server-protocol.h
+wayland-version.h
+xkbcommon/xkbcommon.h
+xkbcommon/xkbcommon-compose.h
+xkbcommon/xkbcommon-keysyms.h
+xkbcommon/xkbcommon-x11.h
+vk_video/vulkan_video_codecs_common.h
+vulkan/vulkan.h
+vulkan/vulkan_core.h
+vulkan/vulkan_wayland.h
+vulkan/vulkan_xcb.h
+vulkan/vulkan_xlib.h
+alsa/asoundlib.h
+alsa/pcm.h
+alsa/version.h
+pulse/pulseaudio.h
+pulse/simple.h
+pulse/version.h
+pipewire-0.3/pipewire/pipewire.h
+pipewire-0.3/pipewire/version.h
+spa-0.2/spa/param/audio/format-utils.h
+spa-0.2/spa/utils/defs.h
+jack/jack.h
+jack/ringbuffer.h
+sndio.h

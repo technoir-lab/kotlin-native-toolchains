@@ -1,0 +1,6 @@
+headers = greet.h
+package = sample.greeting
+compilerOpts = -Isrc/nativeInterop/cinterop
+
+---
+#include "greet.c"
